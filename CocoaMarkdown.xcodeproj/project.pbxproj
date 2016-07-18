@@ -18,20 +18,20 @@
 		722694BC1A687B4100E1D3DC /* test.md in Resources */ = {isa = PBXBuildFile; fileRef = 72FE7F171A686AC300F23F46 /* test.md */; };
 		722694BD1A687BD400E1D3DC /* Nimble.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 729F54981A68663400CC7448 /* Nimble.framework */; };
 		722694BE1A687BD800E1D3DC /* Quick.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 729F54A21A68663400CC7448 /* Quick.framework */; };
-		722E33E01A68E7E4004DE919 /* CMAttributeRun.h in Headers */ = {isa = PBXBuildFile; fileRef = 722E33DE1A68E7E4004DE919 /* CMAttributeRun.h */; };
-		722E33E11A68E7E4004DE919 /* CMAttributeRun.h in Headers */ = {isa = PBXBuildFile; fileRef = 722E33DE1A68E7E4004DE919 /* CMAttributeRun.h */; };
+		722E33E01A68E7E4004DE919 /* CMAttributeRun.h in Headers */ = {isa = PBXBuildFile; fileRef = 722E33DE1A68E7E4004DE919 /* CMAttributeRun.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		722E33E11A68E7E4004DE919 /* CMAttributeRun.h in Headers */ = {isa = PBXBuildFile; fileRef = 722E33DE1A68E7E4004DE919 /* CMAttributeRun.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		722E33E21A68E7E4004DE919 /* CMAttributeRun.m in Sources */ = {isa = PBXBuildFile; fileRef = 722E33DF1A68E7E4004DE919 /* CMAttributeRun.m */; };
 		722E33E31A68E7E4004DE919 /* CMAttributeRun.m in Sources */ = {isa = PBXBuildFile; fileRef = 722E33DF1A68E7E4004DE919 /* CMAttributeRun.m */; };
 		722E33E61A68E86B004DE919 /* CMTextAttributes.h in Headers */ = {isa = PBXBuildFile; fileRef = 722E33E41A68E86B004DE919 /* CMTextAttributes.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		722E33E71A68E86B004DE919 /* CMTextAttributes.h in Headers */ = {isa = PBXBuildFile; fileRef = 722E33E41A68E86B004DE919 /* CMTextAttributes.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		722E33E81A68E86B004DE919 /* CMTextAttributes.m in Sources */ = {isa = PBXBuildFile; fileRef = 722E33E51A68E86B004DE919 /* CMTextAttributes.m */; };
 		722E33E91A68E86B004DE919 /* CMTextAttributes.m in Sources */ = {isa = PBXBuildFile; fileRef = 722E33E51A68E86B004DE919 /* CMTextAttributes.m */; };
-		722E33EC1A68EADA004DE919 /* CMCascadingAttributeStack.h in Headers */ = {isa = PBXBuildFile; fileRef = 722E33EA1A68EADA004DE919 /* CMCascadingAttributeStack.h */; };
-		722E33ED1A68EADA004DE919 /* CMCascadingAttributeStack.h in Headers */ = {isa = PBXBuildFile; fileRef = 722E33EA1A68EADA004DE919 /* CMCascadingAttributeStack.h */; };
+		722E33EC1A68EADA004DE919 /* CMCascadingAttributeStack.h in Headers */ = {isa = PBXBuildFile; fileRef = 722E33EA1A68EADA004DE919 /* CMCascadingAttributeStack.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		722E33ED1A68EADA004DE919 /* CMCascadingAttributeStack.h in Headers */ = {isa = PBXBuildFile; fileRef = 722E33EA1A68EADA004DE919 /* CMCascadingAttributeStack.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		722E33EE1A68EADA004DE919 /* CMCascadingAttributeStack.m in Sources */ = {isa = PBXBuildFile; fileRef = 722E33EB1A68EADA004DE919 /* CMCascadingAttributeStack.m */; };
 		722E33EF1A68EADA004DE919 /* CMCascadingAttributeStack.m in Sources */ = {isa = PBXBuildFile; fileRef = 722E33EB1A68EADA004DE919 /* CMCascadingAttributeStack.m */; };
-		725115E01A6970A300337419 /* CMStack.h in Headers */ = {isa = PBXBuildFile; fileRef = 725115DE1A6970A300337419 /* CMStack.h */; };
-		725115E11A6970A300337419 /* CMStack.h in Headers */ = {isa = PBXBuildFile; fileRef = 725115DE1A6970A300337419 /* CMStack.h */; };
+		725115E01A6970A300337419 /* CMStack.h in Headers */ = {isa = PBXBuildFile; fileRef = 725115DE1A6970A300337419 /* CMStack.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		725115E11A6970A300337419 /* CMStack.h in Headers */ = {isa = PBXBuildFile; fileRef = 725115DE1A6970A300337419 /* CMStack.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		725115E21A6970A300337419 /* CMStack.m in Sources */ = {isa = PBXBuildFile; fileRef = 725115DF1A6970A300337419 /* CMStack.m */; };
 		725115E31A6970A300337419 /* CMStack.m in Sources */ = {isa = PBXBuildFile; fileRef = 725115DF1A6970A300337419 /* CMStack.m */; };
 		725115F51A6972AE00337419 /* CMHTMLElementTransformer.h in Headers */ = {isa = PBXBuildFile; fileRef = 725115F41A6972AE00337419 /* CMHTMLElementTransformer.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -797,8 +797,6 @@
 				72C17A991A6EBD7800212F17 /* CMDocument+HTMLAdditions.h in Headers */,
 				729F54301A6864F400CC7448 /* CMNode.h in Headers */,
 				72772BE61A69ABB20059936C /* CMHTMLStrikethroughTransformer.h in Headers */,
-				725115E01A6970A300337419 /* CMStack.h in Headers */,
-				722E33E01A68E7E4004DE919 /* CMAttributeRun.h in Headers */,
 				729F54341A6864F400CC7448 /* CMParser.h in Headers */,
 				72772BF71A6A29810059936C /* CMHTMLScriptTransformer_Private.h in Headers */,
 				72772BFB1A6A2B5C0059936C /* CMHTMLSubscriptTransformer.h in Headers */,
@@ -811,10 +809,12 @@
 				725115F51A6972AE00337419 /* CMHTMLElementTransformer.h in Headers */,
 				72772BF21A6A28A70059936C /* CMHTMLScriptTransformer.h in Headers */,
 				729F54221A6864F400CC7448 /* CMAttributedStringRenderer.h in Headers */,
+				722E33E01A68E7E4004DE919 /* CMAttributeRun.h in Headers */,
 				72772BD61A699ACB0059936C /* CMHTMLUtilities.h in Headers */,
+				722E33EC1A68EADA004DE919 /* CMCascadingAttributeStack.h in Headers */,
+				725115E01A6970A300337419 /* CMStack.h in Headers */,
 				725116091A69760A00337419 /* CMHTMLElement.h in Headers */,
 				72C17A931A6EBA3300212F17 /* CMHTMLRenderer.h in Headers */,
-				722E33EC1A68EADA004DE919 /* CMCascadingAttributeStack.h in Headers */,
 				729F54381A6864F400CC7448 /* CMPlatformDefines.h in Headers */,
 				729F53E01A68641400CC7448 /* CocoaMarkdown.h in Headers */,
 				729F542E1A6864F400CC7448 /* CMNode_Private.h in Headers */,
@@ -832,7 +832,6 @@
 				729F54271A6864F400CC7448 /* CMDocument.h in Headers */,
 				72772BF81A6A29810059936C /* CMHTMLScriptTransformer_Private.h in Headers */,
 				729F54351A6864F400CC7448 /* CMParser.h in Headers */,
-				722E33E11A68E7E4004DE919 /* CMAttributeRun.h in Headers */,
 				722E33E71A68E86B004DE919 /* CMTextAttributes.h in Headers */,
 				06D9F8781A70465700C00B67 /* CMHTMLUnderlineTransformer.h in Headers */,
 				729F542B1A6864F400CC7448 /* CMIterator.h in Headers */,
@@ -842,15 +841,16 @@
 				72C17A941A6EBA3300212F17 /* CMHTMLRenderer.h in Headers */,
 				72772BD71A699ACB0059936C /* CMHTMLUtilities.h in Headers */,
 				728FA1301AEED87900C7A368 /* CMDocument_Private.h in Headers */,
-				725115E11A6970A300337419 /* CMStack.h in Headers */,
 				729F54391A6864F400CC7448 /* CMPlatformDefines.h in Headers */,
 				72772BF31A6A28A70059936C /* CMHTMLScriptTransformer.h in Headers */,
+				722E33E11A68E7E4004DE919 /* CMAttributeRun.h in Headers */,
+				725115E11A6970A300337419 /* CMStack.h in Headers */,
+				722E33ED1A68EADA004DE919 /* CMCascadingAttributeStack.h in Headers */,
 				725115FD1A69735400337419 /* Ono.h in Headers */,
 				72736B671A7B467E0046B957 /* CocoaMarkdown.h in Headers */,
 				72C17A9A1A6EBD7800212F17 /* CMDocument+HTMLAdditions.h in Headers */,
 				72772BED1A6A22720059936C /* CMHTMLSuperscriptTransformer.h in Headers */,
 				72C17A821A6EB75800212F17 /* CMDocument+AttributedStringAdditions.h in Headers */,
-				722E33ED1A68EADA004DE919 /* CMCascadingAttributeStack.h in Headers */,
 				72772BE71A69ABB20059936C /* CMHTMLStrikethroughTransformer.h in Headers */,
 				729F542F1A6864F400CC7448 /* CMNode_Private.h in Headers */,
 			);
